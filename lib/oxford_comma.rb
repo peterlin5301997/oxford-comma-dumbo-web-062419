@@ -8,7 +8,7 @@ def oxford_comma(array)
   else
     output = ""
     for i in array do
-      if i != i[-1]
+      if i != array[-1]
         output += "#{i}, "
       else
         output += "and #{i}"
